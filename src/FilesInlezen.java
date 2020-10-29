@@ -8,7 +8,7 @@ public class FilesInlezen {
             File f = new File( "Hello.txt");
             Scanner s = new Scanner(f);
             while (s.hasNextLine()) {
-                System.out.println(s.hasNextLine());
+                System.out.println(s.nextLine());
             }
         } catch (FileNotFoundException f) {
             System.out.println("Bestand niet gevonden.");

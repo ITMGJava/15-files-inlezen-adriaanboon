@@ -18,7 +18,7 @@ public class FilesInlezen2 {
         File f = new File( "Hello.txt");
         Scanner s = new Scanner(f);
         while (s.hasNextLine()) {
-            System.out.println(s.hasNextLine());
+            System.out.println(s.nextLine());
 
         }
     }
